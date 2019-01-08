@@ -35,6 +35,7 @@ cache:
 
 addons:
   ssh_known_hosts:
+    - svn-6886.devcloud.hosting.acquia.com
   # - svn-4786.devcloud.hosting.acquia.com
   chrome: stable
 
