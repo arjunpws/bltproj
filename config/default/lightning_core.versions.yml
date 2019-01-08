@@ -105,3 +105,7 @@ pathauto: 1.3.0
 lightning: 3.203.0
 devel: 1.2.0
 seckit: 1.1.0
+admin_toolbar: 1.25.0
+admin_toolbar_links_access_filter: 1.25.0
+admin_toolbar_tools: 1.25.0
+addtoany: 1.10.0

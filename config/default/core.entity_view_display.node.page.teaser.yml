@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.panelizer
     - node.type.page
   module:
     - text
@@ -16,6 +18,11 @@ targetEntityType: node
 bundle: page
 mode: teaser
 content:
+  addtoany:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   body:
     label: hidden
     type: text_summary_or_trimmed
@@ -27,4 +34,7 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  content_moderation_control: true
+  field_meta_tags: true
+  panelizer: true
