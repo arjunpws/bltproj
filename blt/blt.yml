@@ -21,13 +21,13 @@ drush:
   default_alias: '${drush.aliases.local}'
 modules:
   local:
-    enable: [dblog, devel, seckit, views_ui]
+    enable: [dblog, devel, seckit, views_ui, addtoany, admin_toolbar]
     uninstall: [acquia_connector, shield]
   ci:
     enable: {  }
     uninstall: [acquia_connector, shield]
   dev:
-    enable: [acquia_connector, shield]
+    enable: [acquia_connector, shield, addtoany, admin_toolbar]
     uninstall: {  }
   test:
     enable: [acquia_connector, shield]
