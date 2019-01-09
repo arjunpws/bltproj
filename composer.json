@@ -7,7 +7,8 @@
     "require": {
         "acquia/blt": "^9.2.0",
         "drupal/addtoany": "^1.9",
-        "drupal/admin_toolbar": "^1.23"
+        "drupal/admin_toolbar": "^1.23",
+        "drupal/webform": "^5.1"
     },
     "require-dev": {},
     "config": {
